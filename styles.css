@@ -68,8 +68,10 @@ h1 {
     
 }
 .reaction {
-    width: 400px;
-    max-width: 100%;
+    display: block;
+    width: 300px; 
+    height: auto;
+    margin: 10px auto; 
 }
 
 .cards-section {
@@ -80,7 +82,7 @@ h1 {
 }
 .reaction-gif {
     display: block;
-    width: 200px; 
+    width: 300px; 
     height: auto;
     margin: 10px auto; 
 }
