@@ -1,45 +1,34 @@
 body {
-    background: url('https://kawaiihoshi.com/wp-content/uploads/2023/08/gothic-lolita-kuromi-desktop-wallpaper-kawaii-hoshi-1536x864.jpg') no-repeat center center fixed;
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9100d753-02ac-4ed8-ac98-5e45d6deecad/dh3erbt-64a6da13-ab08-41a1-ad0f-9e396b4cfa02.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzkxMDBkNzUzLTAyYWMtNGVkOC1hYzk4LTVlNDVkNmRlZWNhZFwvZGgzZXJidC02NGE2ZGExMy1hYjA4LTQxYTEtYWQwZi05ZTM5NmI0Y2ZhMDIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.lajfymarmDlRPFPIV-GdSRz0_e9V5oQFh23_mt_3htI') no-repeat center center fixed;
     background-size: cover;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
     margin: 0;
     padding: 0;
     color: #ffffff;
-}
-/* Add this to your existing CSS */
-
-.audio-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-.message-box {
-    margin-left: 10px;
-    padding: 10px;
-    border: 1px solid #333;
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 5px;
-    font-size: 14px;
-    color: #333;
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.814);
+    background-color: rgba(0, 0, 0, 0.271);
     border-radius: 10px;
 }
 h1 {
-    color: #aa99aa;
+    color: #f6dff6;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
     font-size: 3em;
     margin-top: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(44, 43, 43, 0.499);
     padding: 10px;
     border-radius: 10px;
+    border: 3px dotted black;
     text-shadow:
         -1px -1px 0 #000,  
         1px -1px 0 #000,
@@ -48,11 +37,12 @@ h1 {
 }
 
 .description {
-    color: #aa99aa;
+    color: #f5eaf5;
     font-size: 1.5em;
     margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(44, 43, 43, 0.499);
     padding: 10px;
+    border: 3px dotted black;
     border-radius: 10px;
     text-shadow:
     -1px -1px 0 #000,  
@@ -62,37 +52,44 @@ h1 {
 
 }
 
-.humor {
-    color: #aa99aa;
+.humor{
+    color: #f1ddf1;
     font-size: 1.2em;
     margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(44, 43, 43, 0.499);
     padding: 10px;
     border-radius: 10px;
+    border: 3px dotted black;
     text-shadow:
     -1px -1px 0 #000,  
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+    
+}
+.reaction {
+    width: 400px;
 }
 
 .cards-section {
     display: flex;
     justify-content: space-around;
     margin: 20px 0;
+    border: 3px dotted black;
 }
 .reaction-gif {
     display: block;
-    width: 80px; 
+    width: 200px; 
     height: auto;
     margin: 10px auto; 
 }
 
 .card {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color:rgba(44, 43, 43, 0.499);
     padding: 10px;
     border-radius: 10px;
     width: 30%;
+    
 }
 
 .card img {
@@ -101,79 +98,44 @@ h1 {
 }
 
 .card p {
-    color: #aa99aa;
+    color: #fee0fe;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
     font-size: 1em;
     margin-top: 10px;
+    
 }
 
 .cats-section {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(70, 70, 70, 0.508);
     padding: 20px;
     border-radius: 10px;
+    border: 3px dotted black;
 }
 
 .cats-section h2 {
-    color: #aa99aa;
+    color: #fae2fa;
     text-align: left;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    
 }
 
 .cats-section p {
-    color: #aa99aa;
+    color: #ffedff;
     text-align: left;
     font-size: larger;
-}
-
-/* General mobile styles */
-@media (max-width: 768px) {
-    .cards-section {
-        flex-direction: column;
-        align-items: center;
-    }
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
     
-    .card {
-        width: 90%;
-        margin-bottom: 20px;
-    }
     
-    .audio-container {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .message-box {
-        margin-left: 0;
-        margin-top: 10px;
-        text-align: center;
-    }
-
-    .cats-section h2 {
-        font-size: 1.8em;
-    }
-
-    .cats-section p {
-        font-size: 1em;
-    }
-}
-
-/* Smaller mobile devices */
-@media (max-width: 480px) {
-    h1 {
-        font-size: 2em;
-    }
-
-    .description, .humor {
-        font-size: 1em;
-    }
-
-    .card {
-        width: 100%;
-    }
-
-    .cats-section h2 {
-        font-size: 1.5em;
-    }
-
-    .cats-section p {
-        font-size: 0.9em;
-    }
 }
