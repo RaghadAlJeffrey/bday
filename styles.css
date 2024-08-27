@@ -10,6 +10,20 @@ body {
     color: #ffffff;
 }
 
+@media (max-width: 768px) {
+  .bd-grid {
+      grid-template-columns: 1fr; 
+
+      }
+
+    }
+
+    @media (max-width: 480px) {
+      .home__title {
+          font-size: 24px; 
+      }
+    }
+
 .container {
     max-width: 800px;
     margin: 0 auto;
