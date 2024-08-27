@@ -10,7 +10,7 @@ body {
     color: #ffffff;
 }
         .styled-button {
-            background-color: #6a0dad; /* Purple color */
+            background-color: #6a0dad;
             color: white;
             border: none;
             padding: 15px 30px;
@@ -20,9 +20,8 @@ body {
             transition: background-color 0.3s ease;
         }
 
-        /* Hover effect for the button */
         .styled-button:hover {
-            background-color: #ffb6c1; /* Light pink color */
+            background-color: #ffb6c1; 
         }
 
 
