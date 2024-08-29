@@ -61,7 +61,8 @@ body {
     font-style: normal;
     text-align: center;
     margin: 0;
-    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: #ffffff;
   }
   
