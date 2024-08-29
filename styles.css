@@ -1,63 +1,136 @@
 body {
-    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9100d753-02ac-4ed8-ac98-5e45d6deecad/dh3erbt-64a6da13-ab08-41a1-ad0f-9e396b4cfa02.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzkxMDBkNzUzLTAyYWMtNGVkOC1hYzk4LTVlNDVkNmRlZWNhZFwvZGgzZXJidC02NGE2ZGExMy1hYjA4LTQxYTEtYWQwZi05ZTM5NmI0Y2ZhMDIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.lajfymarmDlRPFPIV-GdSRz0_e9V5oQFh23_mt_3htI') no-repeat center center fixed;
+    position: relative;
+    background-color: rgb(228, 181, 228);
+    background-image: url('https://raw.githubusercontent.com/RaghadAlJeffrey/bday/main/wp5219551-aesthetic-anime-city-wallpapers.jpg'); 
     background-size: cover;
-    font-family: "Silkscreen", sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
     margin: 0;
     padding: 0;
     color: #ffffff;
+  }
+  
+  body::before,
+  body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-size: 300px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  body::before {
+    left: 0;
+    background-image: url('https://www.icegif.com/wp-content/uploads/2024/03/kuromi-icegif-1.gif'); 
+  }
+  
+  body::after {
+    right: 0;
+    background-image: url('https://www.icegif.com/wp-content/uploads/2024/03/kuromi-icegif-1.gif'); 
+  }
+  
+button {
+    background-color: rgba(212, 158, 248, 0.801);
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 3px solid pink;
+    transition: all ease 0.5s;
+  }
+button:hover {
+    text-decoration: none;
+    color: gold;
+    cursor: pointer;
+  }
+
+  button:active {
+    background-color: rgb(86, 56, 86);
+    border: gold;
+  }
+  
+
+.reaction-img {
+    max-width: 170px;
+    height: auto;
+    width: 170px;
 }
-        .styled-button {
-            background-color: #6a0dad;
-            color: white;
-            border: none;
-            padding: 15px 30px;
-            font-size: 16px;
-            cursor: pointer;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
 
-        .styled-button:hover {
-            background-color: #ffb6c1; 
-        }
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+}
 
+.link:hover {
+    color: gold;
+    cursor: pointer;
+    
+}
+.link :visited {
+    color: pink;
+}
 
-@media (max-width: 768px) {
-  .bd-grid {
-      grid-template-columns: 1fr; 
+.card {
+    position: relative;
+    background-color: rgba(44, 43, 43, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
 
-      }
+.card::before,
+.card::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+}
 
-    }
+.card::before {
+    top: -20px;
+    left: -20px;
+    background-image: url('https://www.405th.com/forums/attachments/sanrio_characters_kuromi_image016-png.332856/');
+    background-size: cover;
+}
 
-    @media (max-width: 480px) {
-      .home__title {
-          font-size: 24px; 
-      }
-    }
+.card::after {
+    bottom: -20px;
+    right: -20px;
+    background-image: url('https://stickershop.line-scdn.net/stickershop/v1/product/2712/LINEStorePC/main.png?v=1');
+    background-size: cover;
+}
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.271);
+    background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
 }
+
 h1 {
+    position: relative;
     color: #f6dff6;
     font-family: "Great Vibes", cursive;
     font-weight: 400;
-    font-style: normal;
     text-align: center;
     font-size: 3em;
     margin-top: 20px;
-    background-color: rgba(44, 43, 43, 0.499);
+    background-color: rgba(44, 43, 43, 0.7);
     padding: 10px;
     border-radius: 10px;
-    border: 3px dotted black;
+    border: 3px solid rgba(255, 192, 203, 0.56);
     text-shadow:
         -1px -1px 0 #000,  
         1px -1px 0 #000,
@@ -65,37 +138,56 @@ h1 {
         1px 1px 0 #000;
 }
 
+h1::before, h1::after {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    background-image: url('https://stickershop.line-scdn.net/stickershop/v1/product/18810/LINEStorePC/main.png?v=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1::before {
+    top: -20px;
+    left: -20px;
+}
+
+h1::after {
+    bottom: -20px;
+    right: -20px;
+}
+
 .description {
     color: #f5eaf5;
     font-size: 1.5em;
     margin-bottom: 20px;
-    background-color: rgba(44, 43, 43, 0.499);
+    background-color: rgba(44, 43, 43, 0.7);
     padding: 10px;
-    border: 3px dotted black;
+    border: 3px solid rgba(255, 192, 203, 0.56);
     border-radius: 10px;
     text-shadow:
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
 
-.humor{
+.humor {
     color: #f1ddf1;
     font-size: 1.2em;
     margin-bottom: 20px;
-    background-color: rgba(44, 43, 43, 0.499);
+    background-color: rgba(44, 43, 43, 0.7);
     padding: 10px;
     border-radius: 10px;
-    border: 3px dotted black;
+    border: 3px solid rgba(255, 192, 203, 0.56);
     text-shadow:
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-    
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
+
 .reaction {
     display: block;
     width: 300px; 
@@ -106,22 +198,19 @@ h1 {
 .cards-section {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin: 20px 0;
-    border: 3px dotted black;
-}
-.reaction-gif {
-    display: block;
-    width: 300px; 
-    height: auto;
-    margin: 10px auto; 
+    border: 3px solid rgba(255, 192, 203, 0.56);
+    padding: 10px;
 }
 
 .card {
-    background-color:rgba(44, 43, 43, 0.499);
+    background-color: rgba(44, 43, 43, 0.7);
     padding: 10px;
     border-radius: 10px;
     width: 30%;
-    
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .card img {
@@ -132,31 +221,31 @@ h1 {
 .card p {
     color: #fee0fe;
     text-shadow:
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
     font-size: 1em;
     margin-top: 10px;
-    
 }
 
 .cats-section {
-    background-color: rgba(70, 70, 70, 0.508);
+    background-color: rgba(70, 70, 70, 0.7);
     padding: 20px;
     border-radius: 10px;
-    border: 3px dotted black;
+    border: 3px solid rgba(255, 192, 203, 0.56);
+    margin-top: 20px;
 }
 
 .cats-section h2 {
     color: #fae2fa;
     text-align: left;
     text-shadow:
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-    
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    margin-bottom: 10px;
 }
 
 .cats-section p {
@@ -164,10 +253,10 @@ h1 {
     text-align: left;
     font-size: larger;
     text-shadow:
-    -1px -1px 0 #000,  
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
-    
-    
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    line-height: 1.5;
+    margin-bottom: 10px;
 }
